@@ -12,8 +12,8 @@ context('Issue 1599 (Polish alphabet).', () => {
     const password = 'Qwerty123!';
 
     before(() => {
-        cy.visit('auth/register');
-        cy.url().should('include', '/auth/register');
+        // cy.visit('auth/register');
+        // cy.url().should('include', '/auth/register');
     });
 
     describe('User registration using the Polish alphabet.', () => {

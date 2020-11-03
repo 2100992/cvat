@@ -42,18 +42,18 @@ function LoginPageComponent(props: LoginPageComponentProps & RouteComponentProps
                     />
                     <Row justify='start' align='top'>
                         <Col>
-                            <Text strong>
+                            {/* <Text strong>
                                 New to CVAT? Create
                                 <Link to='/auth/register'> an account</Link>
-                            </Text>
+                            </Text> */}
                         </Col>
                     </Row>
                     {renderResetPassword && (
                         <Row justify='start' align='top'>
                             <Col>
-                                <Text strong>
+                                {/* <Text strong>
                                     <Link to='/auth/password/reset'>Forgot your password?</Link>
-                                </Text>
+                                </Text> */}
                             </Col>
                         </Row>
                     )}
