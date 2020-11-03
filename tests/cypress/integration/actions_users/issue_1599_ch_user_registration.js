@@ -6,8 +6,8 @@
 
 context('Issue 1599 (Chinese alphabet).', () => {
     before(() => {
-        cy.visit('auth/register');
-        cy.url().should('include', '/auth/register');
+        // cy.visit('auth/register');
+        // cy.url().should('include', '/auth/register');
     });
 
     describe('User registration using the Chinese alphabet.', () => {

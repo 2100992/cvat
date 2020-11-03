@@ -23,8 +23,8 @@ context('Register user, change password, login with new password', () => {
     const newPassword = `${randomString(true)}`;
 
     before(() => {
-        cy.visit('auth/register');
-        cy.url().should('include', '/auth/register');
+        // cy.visit('auth/register');
+        // cy.url().should('include', '/auth/register');
     });
 
     describe(`Testing "Case ${caseId}"`, () => {
