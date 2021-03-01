@@ -50,7 +50,7 @@ services:
 
   cvat_ui:
     container_name: cvat_ui
-    image: 2100992/cvat_ui
+    image: openvino/cvat_ui
     restart: always
     networks:
       default:
